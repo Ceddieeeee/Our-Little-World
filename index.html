@@ -1,0 +1,1986 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For My Wifeyyy ♡</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         LOCK SCREEN
+    ========================== -->
+    <section id="lockScreen" class="screen active">
+
+        <div class="lock-content">
+
+            <div class="small-label">A little world made for you ♡</div>
+
+            <h1>For My Wifeyyy</h1>
+
+            <p class="lock-description">
+                Before you enter, there's just one thing you need to remember.
+            </p>
+
+            <p class="date-hint">
+                The day we first met.
+            </p>
+
+            <div class="date-input-container">
+                <input
+                    type="date"
+                    id="passcode"
+                    aria-label="Enter the date we first met"
+                >
+            </div>
+
+            <button id="unlockButton" class="primary-button">
+                Enter Our Little World ♡
+            </button>
+
+            <p id="wrongDate" class="error-message">
+                Hmm... that's not the date I'm looking for. ♡
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         ENVELOPE / INTRO
+    ========================== -->
+    <section id="envelopeScreen" class="screen">
+
+        <div class="envelope-container">
+
+            <div id="envelope" class="envelope">
+
+                <div class="envelope-back"></div>
+
+                <div class="envelope-flap"></div>
+
+                <div class="envelope-front"></div>
+
+                <div class="letter">
+
+                    <div class="letter-content">
+
+                        <p>Hello, Wifeyyy... ♡</p>
+
+                        <p>
+                            It's actually been three days since we've really talked much.
+                            You've been so busy lately, and I understand that you needed to
+                            focus on what matters the most right now.
+                        </p>
+
+                        <p>
+                            At times like this, I wish I could be there for you, supporting
+                            you every step of the way. I'm sorry if I can't be there beside
+                            you right now. You must've been so tired lately. I wish I could
+                            be there to hug you, give you a kiss, and just let you rest for
+                            a while.
+                        </p>
+
+                        <p>
+                            I don't know exactly how I'm supposed to make you feel that I'm
+                            here supporting you, or how I can make even a little bit of the
+                            stress you're carrying right now disappear.
+                        </p>
+
+                        <p>But hey...</p>
+
+                        <p>
+                            We haven't talked enough for quite a while, and honestly, my
+                            mind kept telling me so many bad things. It made me overthink
+                            a lot.
+                        </p>
+
+                        <p>
+                            But I don't want those thoughts to affect me.
+                        </p>
+
+                        <p>
+                            I know that what we have isn't that weak. I know our love isn't
+                            something that disappears just because we're busy, or because
+                            we don't get to talk as much as we want to.
+                        </p>
+
+                        <p>
+                            Sometimes, though, we forget certain things.
+                        </p>
+
+                        <p>And that's why I made this.</p>
+
+                        <p>
+                            I made this so you can come here anytime you feel tired, down,
+                            sad, overwhelmed, or whenever you simply need to feel reassured.
+                        </p>
+
+                        <p>
+                            I made this so you can always go back to the things I want you
+                            to know.
+                        </p>
+
+                        <p>
+                            Inside, you'll find my thoughts, the things I've wanted to tell
+                            you, the things I never want you to forget, and the things that
+                            I hope <strong>we</strong> never forget.
+                        </p>
+
+                        <p>
+                            You don't have to read everything all at once.
+                        </p>
+
+                        <p>
+                            You can come back here whenever you want. Whenever you miss me.
+                            Whenever you're having a bad day. Whenever you need a little
+                            reminder of us.
+                        </p>
+
+                        <p>
+                            I made this especially for you.
+                        </p>
+
+                        <p>
+                            And honestly, I never imagined that I'd be able to use something
+                            I've learned to create something for the future I want.
+                        </p>
+
+                        <p>A future with you.</p>
+
+                        <p>
+                            So I hope you'll like this.
+                        </p>
+
+                        <p>
+                            I hope you'll enjoy going through everything I've put in here.
+                            And more than anything, I hope that whenever you read these words
+                            or look through these memories, you'll feel a little more at ease.
+                        </p>
+
+                        <p>I love youu, Fei. ♡</p>
+
+                        <p>And that will never change.</p>
+
+                        <p>This is my little proof of that.</p>
+
+                        <p>
+                            I'm making this even though, right now, I might feel tired or
+                            weak. But I'll keep trying. I'll keep pushing forward.
+                        </p>
+
+                        <p>Because I know I can do this.</p>
+
+                        <p>I'll be able to do this.</p>
+
+                        <p class="final-line">
+                            Because...
+                            <br>
+                            <strong>For you, I will. ♡</strong>
+                        </p>
+
+                        <button id="closeLetter" class="letter-button">
+                            Close Letter ♡
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         MAIN HOME
+    ========================== -->
+    <main id="mainPage" class="main-page">
+
+        <header class="hero">
+
+            <div class="hero-decoration">♡</div>
+
+            <p class="eyebrow">OUR LITTLE WORLD</p>
+
+            <h1>Everything I Want<br> You To Remember</h1>
+
+            <p class="hero-text">
+                A little place you can come back to whenever you miss me,
+                need reassurance, or simply want to remember us.
+            </p>
+
+            <!-- DAY COUNTER -->
+            <div class="day-counter">
+
+                <p class="counter-label">
+                    We've been us for
+                </p>
+
+                <div id="daysTogether" class="days-number">
+                    0
+                </div>
+
+                <p class="counter-days">
+                    days
+                </p>
+
+                <p class="counter-date">
+                    Since July 15, 2026
+                </p>
+
+                <p class="counter-ending">
+                    and counting... ♡
+                </p>
+
+            </div>
+
+        </header>
+
+
+        <!-- =========================
+             NAVIGATION
+        ========================== -->
+        <section class="section-menu">
+
+            <button class="menu-card" data-section="love">
+                <span class="menu-number">01</span>
+                <span class="menu-icon">♡</span>
+                <h2>Things I Love<br>About You</h2>
+                <p>
+                    All the little things about you that make me love you even more.
+                </p>
+                <span class="menu-arrow">→</span>
+            </button>
+
+
+            <button class="menu-card" data-section="know">
+                <span class="menu-number">02</span>
+                <span class="menu-icon">✦</span>
+                <h2>Things I Want<br>You To Know</h2>
+                <p>
+                    Things I don't always know how to say out loud.
+                </p>
+                <span class="menu-arrow">→</span>
+            </button>
+
+
+            <button class="menu-card" data-section="memories">
+                <span class="menu-number">03</span>
+                <span class="menu-icon">▧</span>
+                <h2>Our<br>Memories</h2>
+                <p>
+                    Little moments that became part of our story.
+                </p>
+                <span class="menu-arrow">→</span>
+            </button>
+
+
+            <button class="menu-card" data-section="forget">
+                <span class="menu-number">04</span>
+                <span class="menu-icon">♡</span>
+                <h2>Things I Never Want<br>You To Forget</h2>
+                <p>
+                    Come here whenever you need a reminder.
+                </p>
+                <span class="menu-arrow">→</span>
+            </button>
+
+
+            <button class="menu-card" data-section="relationship">
+                <span class="menu-number">05</span>
+                <span class="menu-icon">∞</span>
+                <h2>What I Want For<br>Our Relationship</h2>
+                <p>
+                    The things I hope we can build together.
+                </p>
+                <span class="menu-arrow">→</span>
+            </button>
+
+        </section>
+
+
+        <!-- =========================
+             SURPRISE BUTTON
+        ========================== -->
+        <section class="surprise-area">
+
+            <p>
+                Don't know what you need right now?
+            </p>
+
+            <button id="surpriseButton" class="surprise-button">
+                ✦ Surprise Me ♡
+            </button>
+
+        </section>
+
+
+        <footer>
+            <p>Made especially for you, Wifeyyy. ♡</p>
+            <button id="lockAgain">Lock Our Little World</button>
+        </footer>
+
+    </main>
+
+
+    <!-- =========================
+         CONTENT SECTIONS
+    ========================== -->
+
+    <section id="loveSection" class="content-page">
+
+        <button class="back-button">← Back</button>
+
+        <div class="content-header">
+            <p class="eyebrow">01</p>
+            <h1>Things I Love About You</h1>
+            <p>
+                There are so many things about you that I could probably
+                keep writing forever.
+            </p>
+        </div>
+
+
+        <div class="love-slides">
+
+            <article class="love-slide active">
+
+                <span class="slide-number">01 / 10</span>
+
+                <h2>Your Eyes</h2>
+
+                <p>
+                    I love your eyes because I've never seen anything as beautiful
+                    as them before.
+                </p>
+
+                <p>
+                    Whenever I look into your eyes, I don't just see how beautiful
+                    you are. I can see the world I want to build in them.
+                </p>
+
+                <p>
+                    I don't know how to explain it exactly, but there's something
+                    about your eyes that makes me want to stay, to keep looking,
+                    and to imagine everything that I want our future to be.
+                </p>
+
+            </article>
+
+
+            <article class="love-slide">
+
+                <span class="slide-number">02 / 10</span>
+
+                <h2>Your Smile</h2>
+
+                <p>
+                    I love your smile because it's one of the things that brings
+                    me the most joy in this world.
+                </p>
+
+                <p>
+                    The way you smile makes me feel like there isn't a prize in
+                    this world that could ever compare to it.
+                </p>
+
+                <p>
+                    Sometimes, all I need is to see you smile, and suddenly
+                    everything feels a little better.
+                </p>
+
+            </article>
+
+
+            <article class="love-slide">
+
+                <span class="slide-number">03 / 10</span>
+
+                <h2>The Way You Are With Me</h2>
+
+                <p>
+                    I love how you act whenever you're with me.
+                </p>
+
+                <p>
+                    I love the little things you do that somehow always manage
+                    to make me happy. I love your little jokes, the things you
+                    say, and the way you can make me laugh even when I don't
+                    feel like laughing.
+                </p>
+
+                <p>
+                    And I love how free I feel when I'm with you.
+                </p>
+
+                <p>
+                    I can be careless, childish, weird, and completely myself
+                    around you without constantly worrying about how I look or
+                    how I'm being perceived.
+                </p>
+
+                <p>
+                    With you, I can just be me.
+                </p>
+
+            </article>
+
+
+            <article class="love-slide">
+
+                <span class="slide-number">04 / 10</span>
+
+                <h2>The Little Things You Do</h2>
+
+                <p>
+                    I love when you hug me.
+                </p>
+
+                <p>
+                    I love when you kiss my cheeks.
+                </p>
+
+                <p>
+                    I love when you show me that you care about me.
+                </p>
+
+                <p>
+                    And I love all those little things you do that probably
+                    aren't supposed to mean that much, but somehow, when they
+                    come from you, they mean everything to me.
+                </p>
+
+                <p>
+                    It's funny how the smallest things can become so important
+                    when they're done by the person you love.
+                </p>
+
+            </article>
+
+
+            <article class="love-slide">
+
+                <span class="slide-number">05 / 10</span>
+
+                <h2>Your Voice</h2>
+
+                <p>
+                    I love your voice.
+                </p>
+
+                <p>
+                    I love hearing you talk to me. I love hearing you call my
+                    name in that soft tone of yours.
+                </p>
+
+                <p>
+                    There's just something about hearing your voice that makes
+                    me feel calm.
+                </p>
+
+                <p>
+                    Even when I'm carrying a lot of stress, hearing you can
+                    make it feel like everything disappears for a moment.
+                </p>
+
+            </article>
+
+
+            <article class="love-slide">
+
+                <span class="slide-number">06 / 10</span>
+
+                <h2>The Way You Treat Me</h2>
+
+                <p>
+                    I love how you treat me.
+                </p>
+
+                <p>
+                    I love how you accept me, even when I'm being childish
+                    or difficult.
+                </p>
+
+                <p>
+                    You don't make me feel like I have to become someone else
+                    just to be loved by you.
+                </p>
+
+                <p>
+                    And I don't think you realize how much that means to me.
+                </p>
+
+            </article>
+
+
+            <article class="love-slide">
+
+                <span class="slide-number">07 / 10</span>
+
+                <h2>The Way You Handle My Vulnerability</h2>
+
+                <p>
+                    I love how you accept my vulnerability.
+                </p>
+
+                <p>
+                    I've shown you parts of myself that I don't usually show
+                    to people. I've told you about my weaknesses, my insecurities,
+                    and the things that can make me feel sensitive.
+                </p>
+
+                <p>
+                    And you never made me feel like those things were something
+                    you could use against me.
+                </p>
+
+                <p>You listened.</p>
+
+                <p>You understood.</p>
+
+                <p>
+                    You didn't make me feel like I was being too sensitive
+                    for feeling the way I do.
+                </p>
+
+                <p>
+                    And because of that, I feel safe being vulnerable with you.
+                </p>
+
+            </article>
+
+
+            <article class="love-slide">
+
+                <span class="slide-number">08 / 10</span>
+
+                <h2>The Way You Never Let Me Sleep With a Heavy Heart</h2>
+
+                <p>
+                    I love that you don't let me go to sleep with a heavy heart.
+                </p>
+
+                <p>
+                    Whenever there's something we need to talk about, you want
+                    us to talk about it.
+                </p>
+
+                <p>
+                    You don't just leave everything unresolved and pretend
+                    that nothing happened.
+                </p>
+
+                <p>
+                    You want us to understand each other before we go to sleep.
+                </p>
+
+                <p>
+                    And honestly, I love that about you.
+                </p>
+
+                <p>
+                    Because it reminds me that you care about us enough to fix
+                    things instead of simply letting them stay broken.
+                </p>
+
+            </article>
+
+
+            <article class="love-slide">
+
+                <span class="slide-number">09 / 10</span>
+
+                <h2>The Way You Make Me Feel Wanted</h2>
+
+                <p>
+                    I love how you consider my feelings.
+                </p>
+
+                <p>
+                    You never make me feel unwanted.
+                </p>
+
+                <p>
+                    I know I tend to overthink a lot. Sometimes my mind makes
+                    me question things that don't even need to be questioned.
+                </p>
+
+                <p>
+                    But somehow, you still manage to make me feel like there's
+                    someone beside me.
+                </p>
+
+                <p>Someone who cares.</p>
+
+                <p>Someone who chooses to stay.</p>
+
+                <p>
+                    And that feeling means more to me than I can properly explain.
+                </p>
+
+            </article>
+
+
+            <article class="love-slide">
+
+                <span class="slide-number">10 / 10</span>
+
+                <h2>You</h2>
+
+                <p>
+                    And after everything I've said...
+                </p>
+
+                <p>I love you.</p>
+
+                <p>
+                    I love you so much that I don't think there's anything in
+                    this world that could make me feel greater than the way
+                    you make me feel.
+                </p>
+
+                <p>
+                    It's not just your eyes.
+                </p>
+
+                <p>
+                    It's not just your smile.
+                </p>
+
+                <p>
+                    It's not just your voice, your hugs, your kisses, your
+                    jokes, or the little things you do.
+                </p>
+
+                <p>It's all of it.</p>
+
+                <p>It's you.</p>
+
+                <p>
+                    And somehow, out of all the people I could've met in this
+                    world, I'm lucky enough to love you.
+                </p>
+
+                <p>
+                    And I hope you always know just how much I do.
+                </p>
+
+                <p>
+                    I love you, Wifeyyy. ♡
+                </p>
+
+            </article>
+
+        </div>
+
+
+        <div class="slide-controls">
+
+            <button id="previousSlide">←</button>
+
+            <div id="slideDots"></div>
+
+            <button id="nextSlide">→</button>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         THINGS I WANT YOU TO KNOW
+    ========================== -->
+    <section id="knowSection" class="content-page">
+
+        <button class="back-button">← Back</button>
+
+        <div class="letter-page">
+
+            <p class="eyebrow">02</p>
+
+            <h1>Things I Want You To Know</h1>
+
+            <div class="long-letter">
+
+                <p>
+                    There are so many things I want you to know, and honestly,
+                    I don't always know how to say them properly.
+                </p>
+
+                <p>
+                    Sometimes I can talk to you about random things for hours,
+                    joke around with you, act childish, and just enjoy being
+                    with you. But when it comes to the things I really feel
+                    deep inside, I sometimes don't know how to put them into words.
+                </p>
+
+                <p>So maybe this is my way of finally saying some of them.</p>
+
+                <p>I want you to know that I really, really love you.</p>
+
+                <p>
+                    Not just when everything is going well. Not just when we're
+                    talking all day, laughing together, or having the best moments.
+                </p>
+
+                <p>I love you even during the quiet days.</p>
+
+                <p>Even when we're both busy.</p>
+
+                <p>
+                    Even when we don't get to talk as much as we want.
+                </p>
+
+                <p>
+                    Even when my mind starts overthinking things it shouldn't.
+                </p>
+
+                <p>
+                    Because I don't want my overthinking to make me forget
+                    what I already know.
+                </p>
+
+                <p>I know that I love you.</p>
+
+                <p>
+                    And I know that what we have means so much to me.
+                </p>
+
+                <p>
+                    Sometimes I wish I could explain exactly what you mean to me,
+                    but every time I try, it feels like words aren't enough.
+                </p>
+
+                <p>
+                    You're someone I can be vulnerable with.
+                </p>
+
+                <p>
+                    Someone I can show the parts of myself that I'm not always
+                    proud of.
+                </p>
+
+                <p>
+                    Someone I can be childish around without feeling embarrassed.
+                </p>
+
+                <p>
+                    Someone I can tell my weaknesses to without being afraid
+                    that you'll use them against me.
+                </p>
+
+                <p>
+                    And I don't take that for granted.
+                </p>
+
+                <p>
+                    Before you, I don't think I really understood how much it
+                    meant to have someone who could make you feel safe enough
+                    to be completely yourself.
+                </p>
+
+                <p>But with you, I've learned that.</p>
+
+                <p>
+                    You've made me realize that being loved isn't only about
+                    the big things.
+                </p>
+
+                <p>Sometimes it's the small things.</p>
+
+                <p>The way you ask if I'm okay.</p>
+
+                <p>The way you listen.</p>
+
+                <p>
+                    The way you don't let us go to sleep with problems left
+                    between us.
+                </p>
+
+                <p>The way you make me feel wanted.</p>
+
+                <p>
+                    The way you stay patient with me even when I'm being difficult.
+                </p>
+
+                <p>
+                    Those things might seem small, but they're the things I remember.
+                </p>
+
+                <p>They're the things that stay with me.</p>
+
+                <p>
+                    And I want you to know that I notice them.
+                </p>
+
+                <p>I notice you.</p>
+
+                <p>
+                    I notice the little things you do, even when you probably
+                    think I don't.
+                </p>
+
+                <p>
+                    And I hope you know that I appreciate them more than I
+                    sometimes know how to show.
+                </p>
+
+                <p>
+                    I also want you to know that I'm still learning.
+                </p>
+
+                <p>I'm not perfect.</p>
+
+                <p>
+                    There are times when I'll overthink. There are times when
+                    I'll get quiet, get tired, or not know how to express
+                    what I'm feeling.
+                </p>
+
+                <p>
+                    There might even be times when I don't handle things the
+                    way I should.
+                </p>
+
+                <p>
+                    But I don't want those moments to make you question how much
+                    I love you.
+                </p>
+
+                <p>
+                    I'm still trying to become a better version of myself—not
+                    because you asked me to become someone else, but because
+                    loving you makes me want to become someone worthy of the
+                    future I imagine with you.
+                </p>
+
+                <p>And when I think about the future...</p>
+
+                <p>
+                    I don't just think about the things we have right now.
+                </p>
+
+                <p>I think about all the things we haven't experienced yet.</p>
+
+                <p>More memories.</p>
+                <p>More pictures.</p>
+                <p>More places.</p>
+                <p>More random conversations.</p>
+                <p>More late nights.</p>
+                <p>More hugs.</p>
+                <p>More kisses.</p>
+
+                <p>
+                    More moments where we look at each other and realize how
+                    far we've come.
+                </p>
+
+                <p>I want to experience those things with you.</p>
+
+                <p>
+                    I don't know exactly what our future will look like.
+                </p>
+
+                <p>
+                    I don't know what challenges we'll have to face or how
+                    many things will change along the way.
+                </p>
+
+                <p>
+                    But I know that if there's one thing I want to keep choosing,
+                    it's us.
+                </p>
+
+                <p>I want us to keep learning each other.</p>
+                <p>Keep understanding each other.</p>
+                <p>Keep talking when things get difficult.</p>
+                <p>Keep laughing over the stupidest things.</p>
+                <p>Keep making memories.</p>
+
+                <p>
+                    And keep finding our way back to each other.
+                </p>
+
+                <p>
+                    So if there's one thing I really want you to remember from
+                    everything I've written here, it's this:
+                </p>
+
+                <p>You are loved.</p>
+
+                <p>You are important to me.</p>
+
+                <p>You are someone I don't want to lose.</p>
+
+                <p>
+                    And no matter how many times my mind makes me overthink,
+                    no matter how busy life gets, and no matter how difficult
+                    some days might become...
+                </p>
+
+                <p>
+                    I will always remember why I chose you.
+                </p>
+
+                <p>
+                    I love you, Wifeyyy.
+                </p>
+
+                <p>
+                    And if I could choose you all over again, I'd still choose you.
+                </p>
+
+                <p>Every time. ♡</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         MEMORIES
+    ========================== -->
+    <section id="memoriesSection" class="content-page">
+
+        <button class="back-button">← Back</button>
+
+        <div class="content-header">
+
+            <p class="eyebrow">03</p>
+
+            <h1>Our Memories</h1>
+
+            <p>
+                A little photo album of the moments we've shared.
+            </p>
+
+        </div>
+
+
+        <div class="photo-album">
+
+
+            <!-- =========================
+                 MEMORY PAGE 1
+                 PUT MEMORY 1-4 HERE
+            ========================== -->
+
+            <div class="album-page">
+
+                <div class="memory-photo">
+
+                    <!-- MEMORY 1
+                         FILE: memory1.jpg
+                         CHANGE DATE/TIME BELOW
+                    -->
+                    <div class="photo-card">
+                        <img src="images/memory-1.jpg" alt="Memory 1">
+
+                        <div class="photo-info">
+                            <span>Memory 01</span>
+                            <strong>September 08, 2026</strong>
+                            <small>1:49 AM</small>
+                        </div>
+                    </div>
+
+
+                    <!-- MEMORY 2
+                         FILE: memory2.jpg
+                    -->
+                    <div class="photo-card">
+                        <img src="images/memory-2.jpg" alt="Memory 2">
+
+                        <div class="photo-info">
+                            <span>Memory 02</span>
+                            <strong>September 08, 2026</strong>
+                            <small>1:49 AM</small>
+                        </div>
+                    </div>
+
+
+                    <!-- MEMORY 3
+                         FILE: memory3.jpg
+                    -->
+                    <div class="photo-card">
+                        <img src="images/memory-3.jpg" alt="Memory 3">
+
+                        <div class="photo-info">
+                            <span>Memory 03</span>
+                            <strong>September 08, 2026</strong>
+                            <small>1:49 AM</small>
+                        </div>
+                    </div>
+
+
+                    <!-- MEMORY 4
+                         FILE: memory4.jpg
+                    -->
+                    <div class="photo-card">
+                        <img src="images/memory-4.jpeg" alt="Memory 4">
+
+                        <div class="photo-info">
+                            <span>Memory 04</span>
+                            <strong>September 08, 2026</strong>
+                            <small>1:49 AM</small>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- =========================
+                 MEMORY PAGE 2
+                 MEMORY 5-8
+            ========================== -->
+
+            <div class="album-page">
+
+                <div class="memory-photo">
+
+                    <div class="photo-card">
+                        <img src="images/memory-5.jpeg" alt="Memory 5">
+
+                        <div class="photo-info">
+                            <span>Memory 05</span>
+                            <strong>September 08, 2026</strong>
+                            <small>1:49 AM</small>
+                        </div>
+                    </div>
+
+
+                    <div class="photo-card">
+                        <img src="images/memory-6.jpeg" alt="Memory 6">
+
+                        <div class="photo-info">
+                            <span>Memory 06</span>
+                            <strong>September 08, 2026</strong>
+                            <small>1:49 AM</small>
+                        </div>
+                    </div>
+
+
+                    <div class="photo-card">
+                        <img src="images/memory-7.jpeg" alt="Memory 7">
+
+                        <div class="photo-info">
+                            <span>Memory 07</span>
+                            <strong>September 08, 2026</strong>
+                            <small>1:49 AM</small>
+                        </div>
+                    </div>
+
+
+                    <div class="photo-card">
+                        <img src="images/memory-8.jpg" alt="Memory 8">
+
+                        <div class="photo-info">
+                            <span>Memory 08</span>
+                            <strong>September 21, 2026</strong>
+                            <small>4:11 AM</small>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- =========================
+                 MEMORY PAGE 3
+                 MEMORY 9-12
+            ========================== -->
+
+            <div class="album-page">
+
+                <div class="memory-photo">
+
+                    <div class="photo-card">
+                        <img src="images/memory-9.jpg" alt="Memory 9">
+
+                        <div class="photo-info">
+                            <span>Memory 09</span>
+                            <strong>September 21, 2026</strong>
+                            <small>4:11 AM</small>
+                        </div>
+                    </div>
+
+
+                    <!-- MEMORY 10 STARTS JPEG -->
+                    <div class="photo-card">
+                        <img src="images/memory-10.jpg" alt="Memory 10">
+
+                        <div class="photo-info">
+                            <span>Memory 10</span>
+                            <strong>September 21, 2026</strong>
+                            <small>4:11 AM</small>
+                        </div>
+                    </div>
+
+
+                    <div class="photo-card">
+                        <img src="images/memory-11.jpg" alt="Memory 11">
+
+                        <div class="photo-info">
+                            <span>Memory 11</span>
+                            <strong>September 21, 2026</strong>
+                            <small>4:11 AM</small>
+                        </div>
+                    </div>
+
+
+                    <div class="photo-card">
+                        <img src="images/memory-12.jpg" alt="Memory 12">
+
+                        <div class="photo-info">
+                            <span>Memory 12</span>
+                            <strong>September 21, 2026</strong>
+                            <small>4:11 AM</small>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- =========================
+                 MEMORY PAGE 4
+                 13-16
+            ========================== -->
+
+            <div class="album-page">
+
+                <div class="memory-photo">
+
+                    <div class="photo-card">
+                        <img src="images/memory-13.jpg" alt="Memory 13">
+
+                        <div class="photo-info">
+                            <span>Memory 13</span>
+                            <strong>September 21, 2026</strong>
+                            <small>4:11 AM</small>
+                        </div>
+                    </div>
+
+                    <div class="photo-card">
+                        <img src="images/memory-14.jpeg" alt="Memory 14">
+
+                        <div class="photo-info">
+                            <span>Memory 14</span>
+                            <strong>September 25, 2026</strong>
+                            <small>10:41 PM</small>
+                        </div>
+                    </div>
+
+                    <div class="photo-card">
+                        <img src="images/memory-15.jpeg" alt="Memory 15">
+
+                        <div class="photo-info">
+                            <span>Memory 15</span>
+                            <strong>September 25, 2026</strong>
+                            <small>10:41 PM</small>
+                        </div>
+                    </div>
+
+                    <div class="photo-card">
+                        <img src="images/memory-16.jpeg" alt="Memory 16">
+
+                        <div class="photo-info">
+                            <span>Memory 16</span>
+                            <strong>September 25, 2026</strong>
+                            <small>10:41 PM</small>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- =========================
+                 MEMORY PAGE 5
+                 17-20
+            ========================== -->
+
+            <div class="album-page">
+
+                <div class="memory-photo">
+
+                    <div class="photo-card">
+                        <img src="images/memory-17.jpeg" alt="Memory 17">
+
+                        <div class="photo-info">
+                            <span>Memory 17</span>
+                            <strong>September 25, 2026</strong>
+                            <small>10:41 PM</small>
+                        </div>
+                    </div>
+
+                    <div class="photo-card">
+                        <img src="images/memory-18.jpeg" alt="Memory 18">
+
+                        <div class="photo-info">
+                            <span>Memory 18</span>
+                            <strong>September 25, 2026</strong>
+                            <small>10:41 PM</small>
+                        </div>
+                    </div>
+
+                    <div class="photo-card">
+                        <img src="images/memory-19.jpeg" alt="Memory 19">
+
+                        <div class="photo-info">
+                            <span>Memory 19</span>
+                            <strong>September 25, 2026</strong>
+                            <small>10:41 PM</small>
+                        </div>
+                    </div>
+
+                    <div class="photo-card">
+                        <img src="images/memory-20.jpeg" alt="Memory 20">
+
+                        <div class="photo-info">
+                            <span>Memory 20</span>
+                            <strong>September 25, 2026</strong>
+                            <small>10:41 PM</small>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- =========================
+                 MEMORY PAGE 6
+                 21-24
+            ========================== -->
+
+            <div class="album-page">
+
+                <div class="memory-photo">
+
+                    <div class="photo-card">
+                        <img src="images/memory-21.jpeg" alt="Memory 21">
+
+                        <div class="photo-info">
+                            <span>Memory 21</span>
+                            <strong>September 25, 2026</strong>
+                            <small>10:41 PM</small>
+                        </div>
+                    </div>
+
+                    <div class="photo-card">
+                        <img src="images/memory-22.jpeg" alt="Memory 22">
+
+                        <div class="photo-info">
+                            <span>Memory 22</span>
+                            <strong>September 25, 2026</strong>
+                            <small>10:41 PM</small>
+                        </div>
+                    </div>
+
+                    <div class="photo-card">
+                        <img src="images/memory-23.jpeg" alt="Memory 23">
+
+                        <div class="photo-info">
+                            <span>Memory 23</span>
+                            <strong>September 25, 2026</strong>
+                            <small>10:41 PM</small>
+                        </div>
+                    </div>
+
+                    <div class="photo-card">
+                        <img src="images/memory-24.jpeg" alt="Memory 24">
+
+                        <div class="photo-info">
+                            <span>Memory 24</span>
+                            <strong>September 25, 2026</strong>
+                            <small>10:41 PM</small>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- =========================
+                 MEMORY PAGE 7
+                 25-28
+            ========================== -->
+
+            <div class="album-page">
+
+                <div class="memory-photo">
+
+                    <div class="photo-card">
+                        <img src="images/memory-25.jpeg" alt="Memory 25">
+
+                        <div class="photo-info">
+                            <span>Memory 25</span>
+                            <strong>September 25, 2026</strong>
+                            <small>10:41 PM</small>
+                        </div>
+                    </div>
+
+                    <div class="photo-card">
+                        <img src="images/memory-26.jpeg" alt="Memory 26">
+
+                        <div class="photo-info">
+                            <span>Memory 26</span>
+                            <strong>September 25, 2026</strong>
+                            <small>10:41 PM</small>
+                        </div>
+                    </div>
+
+                    <div class="photo-card">
+                        <img src="images/memory-27.jpeg" alt="Memory 27">
+
+                        <div class="photo-info">
+                            <span>Memory 27</span>
+                            <strong>September 25, 2026</strong>
+                            <small>10:41 PM</small>
+                        </div>
+                    </div>
+
+                    <div class="photo-card">
+                        <img src="images/memory-28.jpeg" alt="Memory 28">
+
+                        <div class="photo-info">
+                            <span>Memory 28</span>
+                            <strong>September 25, 2026</strong>
+                            <small>10:41 PM</small>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- =========================
+                 MEMORY PAGE 8
+                 29-32
+            ========================== -->
+
+            <div class="album-page">
+
+                <div class="memory-photo">
+
+                    <div class="photo-card">
+                        <img src="images/memory-29.jpeg" alt="Memory 29">
+
+                        <div class="photo-info">
+                            <span>Memory 29</span>
+                            <strong>September 25, 2026</strong>
+                            <small>10:41 PM</small>
+                        </div>
+                    </div>
+
+                    <div class="photo-card">
+                        <img src="images/memory-30.jpeg" alt="Memory 30">
+
+                        <div class="photo-info">
+                            <span>Memory 30</span>
+                            <strong>September 25, 2026</strong>
+                            <small>10:41 PM</small>
+                        </div>
+                    </div>
+
+                    <div class="photo-card">
+                        <img src="images/memory-31.jpeg" alt="Memory 31">
+
+                        <div class="photo-info">
+                            <span>Memory 31</span>
+                            <strong>September 25, 2026</strong>
+                            <small>10:41 PM</small>
+                        </div>
+                    </div>
+
+                    <div class="photo-card">
+                        <img src="images/memory-32.jpeg" alt="Memory 32">
+
+                        <div class="photo-info">
+                            <span>Memory 32</span>
+                            <strong>September 25, 2026</strong>
+                            <small>10:41 PM</small>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- =========================
+                 MEMORY PAGE 9
+                 33-36
+            ========================== -->
+
+            <div class="album-page">
+
+                <div class="memory-photo">
+
+                    <div class="photo-card">
+                        <img src="images/memory-33.jpeg" alt="Memory 33">
+
+                        <div class="photo-info">
+                            <span>Memory 33</span>
+                            <strong>September 25, 2026</strong>
+                            <small>10:41 PM</small>
+                        </div>
+                    </div>
+
+                    <div class="photo-card">
+                        <img src="images/memory-34.jpeg" alt="Memory 34">
+
+                        <div class="photo-info">
+                            <span>Memory 34</span>
+                            <strong>September 25, 2026</strong>
+                            <small>10:41 PM</small>
+                        </div>
+                    </div>
+
+                    <div class="photo-card">
+                        <img src="images/memory-35.jpeg" alt="Memory 35">
+
+                        <div class="photo-info">
+                            <span>Memory 35</span>
+                            <strong>September 25, 2026</strong>
+                            <small>10:41 PM</small>
+                        </div>
+                    </div>
+
+                    <div class="photo-card">
+                        <img src="images/memory-36.jpeg" alt="Memory 36">
+
+                        <div class="photo-info">
+                            <span>Memory 36</span>
+                            <strong>September 25, 2026</strong>
+                            <small>10:41 PM</small>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- =========================
+                 MEMORY PAGE 10
+                 MEMORY 37
+            ========================== -->
+
+            <div class="album-page final-memory-page">
+
+                <div class="memory-photo">
+
+                    <div class="photo-card">
+
+                        <img src="images/memory-37.jpeg" alt="Memory 37">
+
+                        <div class="photo-info">
+                            <span>Memory 37</span>
+                            <strong>September 25, 2026</strong>
+                            <small>10:41 PM</small>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="memory-ending">
+
+                    <p>And that's it for now... ♡</p>
+
+                    <p>
+                        These are the memories we've made so far, but I know
+                        this isn't where our story ends. Soon, we'll have more
+                        moments to capture, more places to go, more pictures
+                        to take, and more memories to call ours.
+                    </p>
+
+                    <p>
+                        So until then... I'll be looking forward to the next one
+                        with you.
+                    </p>
+
+                    <p>
+                        Here's to all the memories still waiting for us. ♡
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="album-controls">
+
+            <button id="previousMemory">←</button>
+
+            <span id="memoryPageNumber">
+                1 / 10
+            </span>
+
+            <button id="nextMemory">→</button>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         NEVER FORGET
+    ========================== -->
+    <section id="forgetSection" class="content-page">
+
+        <button class="back-button">← Back</button>
+
+        <div class="content-header">
+
+            <p class="eyebrow">04</p>
+
+            <h1>Things I Never Want You To Forget</h1>
+
+            <p>
+                Whenever you need a little reassurance, come back here.
+            </p>
+
+        </div>
+
+
+        <div class="reminder-grid">
+
+
+            <article class="reminder-card">
+
+                <span>01</span>
+
+                <h2>When You Don't Feel Beautiful</h2>
+
+                <p>
+                    I want you to remember that there is no one more beautiful
+                    than you to me. Your beauty is something unique. You're not
+                    just beautiful on the outside, but also on the inside.
+                </p>
+
+            </article>
+
+
+            <article class="reminder-card">
+
+                <span>02</span>
+
+                <h2>When You Feel Like You're Not Enough</h2>
+
+                <p>
+                    I want you to remember that I will never think of having
+                    someone else, or choosing someone else over you, because
+                    you are more than enough. There is no one else that can
+                    reach that level in my heart, no one but you.
+                </p>
+
+            </article>
+
+
+            <article class="reminder-card">
+
+                <span>03</span>
+
+                <h2>When You're Having a Bad Day</h2>
+
+                <p>
+                    I want you to know that I'm always here for you. In bad
+                    times, if you have a problem, if you feel like crying,
+                    or anything else.
+                </p>
+
+                <p>
+                    I will never leave your side and will always be here.
+                    Don't forget that you have someone like me, and that
+                    you will never be alone.
+                </p>
+
+            </article>
+
+
+            <article class="reminder-card">
+
+                <span>04</span>
+
+                <h2>When You Feel Alone</h2>
+
+                <p>
+                    You are never alone. You always have me—your friend,
+                    your boyfriend, your hubby, your sissy, anything.
+                    Name it, just don't call me your bro. I hate that.
+                </p>
+
+                <p>
+                    But anyways, I will never leave your side because I know
+                    that you will never leave mine either.
+                </p>
+
+            </article>
+
+
+            <article class="reminder-card">
+
+                <span>05</span>
+
+                <h2>When We Fight</h2>
+
+                <p>
+                    If ever we have a misunderstanding, please remember that
+                    I would definitely love to talk it out instead of letting
+                    our pride take over.
+                </p>
+
+                <p>
+                    I hope you know that there is nothing else I want more
+                    than to fix every misunderstanding that we'll have.
+                </p>
+
+                <p>
+                    Remember, it's us against our problems, not us against us.
+                </p>
+
+            </article>
+
+
+            <article class="reminder-card">
+
+                <span>06</span>
+
+                <h2>When You Miss Me</h2>
+
+                <p>
+                    When you miss me, remember that I'm just one chat away.
+                    I will always have some time for you, and will always
+                    give you everything I have.
+                </p>
+
+                <p>
+                    I might get busy, but I won't be busy enough to not
+                    give you some time.
+                </p>
+
+            </article>
+
+
+            <article class="reminder-card">
+
+                <span>07</span>
+
+                <h2>When You're Overthinking</h2>
+
+                <p>
+                    When you overthink, tell me all of those things.
+                    We'll battle all of your overthinking together until
+                    you feel like you're okay.
+                </p>
+
+                <p>
+                    We'll laugh it off, and I'll make sure that I'll never
+                    make you feel invalidated.
+                </p>
+
+            </article>
+
+
+            <article class="reminder-card">
+
+                <span>08</span>
+
+                <h2>When You Need Reassurance</h2>
+
+                <p>
+                    If you want reassurance, always remember that there is no
+                    one in this world that can replace you.
+                </p>
+
+                <p>
+                    You're the one and only person who managed to make me feel
+                    loved, who managed to bring back my old self.
+                </p>
+
+                <p>
+                    You're the only one who makes me feel like I'm not getting
+                    used, because nowadays, I feel like everyone is trying to
+                    use me for something, and it made me feel like I shouldn't
+                    trust anyone.
+                </p>
+
+            </article>
+
+
+            <article class="reminder-card">
+
+                <span>09</span>
+
+                <h2>When You Forget How Much I Love You</h2>
+
+                <p>
+                    If you ever forget how much I love you, please don't,
+                    because it's hard to explain time by time.
+                </p>
+
+                <p>
+                    There are no words in this world that can truly tell you
+                    or assure you how much I love you.
+                </p>
+
+                <p>
+                    You're the unexpected thing that I didn't want to lose.
+                </p>
+
+                <p class="poetry">
+                    "If the moon calls out your name one day, don't be
+                    surprised, because every night I tell her about you."
+                </p>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         RELATIONSHIP
+    ========================== -->
+    <section id="relationshipSection" class="content-page">
+
+        <button class="back-button">← Back</button>
+
+        <div class="letter-page">
+
+            <p class="eyebrow">05</p>
+
+            <h1>What I Want For Our Relationship</h1>
+
+            <div class="long-letter">
+
+                <p>
+                    These aren't rules you have to follow.
+                </p>
+
+                <p>
+                    They're simply the things I hope we can give each other
+                    as we continue building our relationship.
+                </p>
+
+                <p>
+                    You don't have to be perfect at any of these.
+                </p>
+
+                <p>
+                    I just hope that when something matters to me, you'll
+                    respect it—just as I'll respect the things that matter
+                    to you.
+                </p>
+
+                <p>
+                    Because I don't want a relationship where one person
+                    controls the other.
+                </p>
+
+                <p>
+                    I want a relationship where we understand each other.
+                </p>
+
+
+                <h2>Be Honest With Me</h2>
+
+                <p>
+                    I want us to be honest with each other, even when the
+                    truth isn't always easy to say.
+                </p>
+
+                <p>
+                    I'd rather hear something difficult from you than have
+                    you hide it from me.
+                </p>
+
+
+                <h2>Talk To Me</h2>
+
+                <p>
+                    We don't need to talk 24/7, but if you're busy or you
+                    have something to do, please tell me, because you know
+                    how much I tend to overthink.
+                </p>
+
+                <p>
+                    I don't need you to always be available.
+                </p>
+
+                <p>
+                    I just want to know what's going on instead of letting
+                    my mind create its own answers.
+                </p>
+
+
+                <h2>Tell Me About The Things You Love</h2>
+
+                <p>
+                    I don't care if you think your interests are stupid.
+                </p>
+
+                <p>
+                    I want you to tell me about them.
+                </p>
+
+                <p>
+                    If something makes you happy, I want to know why.
+                    If something excites you, I want to hear you talk about it.
+                </p>
+
+                <p>
+                    Even if I don't understand it at first, I'll still listen,
+                    because it's something that matters to you.
+                </p>
+
+
+                <h2>Respect Each Other</h2>
+
+                <p>
+                    I want us to respect each other's feelings, boundaries,
+                    time, and individuality.
+                </p>
+
+                <p>
+                    Loving each other doesn't mean that we have to be the
+                    exact same person.
+                </p>
+
+
+                <h2>Don't Keep Everything Inside</h2>
+
+                <p>
+                    If something is bothering you, please tell me.
+                </p>
+
+                <p>
+                    I don't want you to feel like you have to carry everything
+                    by yourself.
+                </p>
+
+                <p>
+                    Let me be there for you.
+                </p>
+
+
+                <h2>It's Us Against The Problem</h2>
+
+                <p>
+                    When something goes wrong, I don't want us to treat each
+                    other like enemies.
+                </p>
+
+                <p>
+                    I want us to remember that we're on the same side.
+                </p>
+
+                <p>
+                    It's you and me against the problem.
+                </p>
+
+
+                <h2>Keep Choosing Each Other</h2>
+
+                <p>
+                    I want us to keep choosing each other, especially during
+                    the moments when things aren't easy.
+                </p>
+
+                <p>
+                    Not because everything will always be perfect, but because
+                    I want us to remember why we started in the first place.
+                </p>
+
+
+                <div class="relationship-ending">
+
+                    <p>
+                        I won't leave you during the hard times.
+                    </p>
+
+                    <p>
+                        No matter how broken we are, we'll always fix it.
+                    </p>
+
+                    <p>
+                        I will always be your number one supporter in everything
+                        you do.
+                    </p>
+
+                    <p class="final-promise">
+                        I'm dating you with the intentions of marrying you
+                        one day.
+                    </p>
+
+                    <p class="final-promise">
+                        Nothing less. ♡
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         SURPRISE MODAL
+    ========================== -->
+    <div id="surpriseModal" class="modal">
+
+        <div class="modal-card">
+
+            <button id="closeModal" class="modal-close">
+                ×
+            </button>
+
+            <span class="modal-heart">♡</span>
+
+            <p class="eyebrow">A LITTLE REMINDER</p>
+
+            <h2 id="surpriseTitle">
+                You are loved.
+            </h2>
+
+            <p id="surpriseText">
+                Whatever you're feeling right now, you don't have to carry
+                it alone.
+            </p>
+
+            <button id="goToSurprise" class="primary-button">
+                Take Me There ♡
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
